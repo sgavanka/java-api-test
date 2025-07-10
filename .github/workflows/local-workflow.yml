@@ -1,0 +1,9 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Java App
+        run: java -jar myapp.jar
+        env:
+          SECRET_API_KEY: ${{ secrets.SECRET_API_KEY }}
