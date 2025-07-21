@@ -19,7 +19,7 @@
                 "SPOTIFY_CLIENT_ID": "68cfaa836f314680851d0abc9f19736c",
                 "SPOTIFY_CLIENT_SECRET": "860f4e617c2d40668610bbb19335da59"
             }
-            // "vmArgs": "-DSPOTIFY_CLIENT_ID=68cfaa836f314680851d0abc9f19736c -DSPOTIFY_CLIENT_SECRET=0c2faa31793441768aa5c3cdae5f957c"
+        
 
         }
     ]
