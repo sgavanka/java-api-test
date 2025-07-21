@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:9090",
+            "webRoot": "${workspaceFolder}",
+        
+        },
+        {
+            "type": "java",
+            "name": "Launch Spring Boot App",
+            "request": "launch",
+            "mainClass": "com.sunchips.apiv1.Apiv1Application",
+            "projectName": "apiv1",
+            "env": {
+                "SPOTIFY_CLIENT_ID": "68cfaa836f314680851d0abc9f19736c",
+                "SPOTIFY_CLIENT_SECRET": "860f4e617c2d40668610bbb19335da59"
+            }
+            // "vmArgs": "-DSPOTIFY_CLIENT_ID=68cfaa836f314680851d0abc9f19736c -DSPOTIFY_CLIENT_SECRET=0c2faa31793441768aa5c3cdae5f957c"
+
+        }
+    ]
+}

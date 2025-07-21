@@ -1,0 +1,6 @@
+curl -X POST https://accounts.spotify.com/api/token \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -u "68cfaa836f314680851d0abc9f19736c:860f4e617c2d40668610bbb19335da59" \
+  -d "grant_type=authorization_code" \
+  -d "code=AQDoLSoYfnymgo3ugmdTpJINpD-g_tV8r8lAmCYFScDWM4wbxolmwAN53fLU82sOZs_ag3IQEsAWh6dVdBXKjIVS7szANHxNdbQ6J54R-U92PyLaa8DlXfoCcbdi_k147uk0YmwrJ3lP3_13p2nJ-LhtRngYtqyT6wJvwHIvlprartf2hIWoh_JJLPOZCkwp_y7OcA4b_x1Bie2Lq8mNFhOFk9d_4beg1REabP2QtHpLzf826xOU0HrMPt4HNHwho1vs58g" \
+  -d "redirect_uri=https://6c1b1cba2a92.ngrok-free.app/login/oauth2/code/spotify"
